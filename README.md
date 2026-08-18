@@ -23,3 +23,4 @@ Transformer inference on DGX H100 clusters. Fused Triton kernels at 3.5x PyTorch
 ### Currently reading about
 
 Ternary quantization, wave quantization on small batch sizes, and why nobody agrees on what a benchmark measured.
+
