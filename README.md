@@ -4,6 +4,9 @@ Mostly GPU kernels, low-precision inference, and evaluation harnesses that don't
 
 ### Things that exist
 
+**[slipstream](https://github.com/titoatwork/slipstream)** · `Python / Triton`  
+LLM inference engine, built from scratch. The contribution sits at the scheduling layer — a memory-aware, output-length-predictive policy under hard KV-cache limits, where production engines still schedule blind. Companion to qgemm-mx: same bandwidth wall, one layer up.
+
 **[qgemm-mx](https://github.com/titoatwork/qgemm-mx)** · `C++ / CUDA`  
 Block-scaled FP4 on GPUs with no native FP4. MXFP4 moves 1.88x fewer bytes per weight than FP8 and currently delivers roughly none of the speedup. Measuring where it goes.
 
