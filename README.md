@@ -2,7 +2,7 @@ Fourth-year CS undergrad. I work on making models cheaper to run and measurement
 
 Mostly GPU kernels, low-precision inference, and evaluation harnesses that don't flatter their author.
 
-### Things that exist <img src="https://shields.io" height="18" valign="middle">
+### Things that exist 
 
 **[slipstream](https://github.com)** · `Python / Triton`  
 LLM inference engine, built from scratch. The contribution sits at the scheduling layer — a memory-aware, output-length-predictive policy under hard KV-cache limits, where production engines still schedule blind. Companion to qgemm-mx: same bandwidth wall, one layer up.
